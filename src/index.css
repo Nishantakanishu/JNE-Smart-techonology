@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@keyframes slow-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+@tailwind utilities;
+
+html,
+body,
+#root {
+  @apply bg-gradient-to-br from-[#0b1226] via-[#111c3a] to-[#020617]
+;
+}
+
+
