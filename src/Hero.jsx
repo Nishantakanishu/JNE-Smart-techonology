@@ -72,9 +72,9 @@ const Hero = () => {
             {/* Circular Stats */}
             <CircularStats />
 
-            <div className="mt-14 text-sm tracking-widest text-gray-400 uppercase">
+            {/* <div className="mt-14 text-sm tracking-widest text-gray-400 uppercase">
               Smart Meters • IoT • Energy Analytics • Web & Mobile Apps
-            </div>
+            </div> */}
           </div>
 
           {/* RIGHT VISUAL */}
@@ -110,6 +110,7 @@ const Hero = () => {
   <div className="absolute w-[420px] h-[420px] rounded-full border border-cyan-400/30 animate-[slow-spin_40s_linear_infinite]"></div>
   <div className="absolute w-[410px] h-[410px] rounded-full border border-cyan-400/30 animate-[slow-spin_40s_linear_infinite]"></div>
   <div className="absolute w-[400px] h-[400px] rounded-full border border-cyan-400/30 animate-[slow-spin_40s_linear_infinite]"></div>
+  
 
   {/* Center – Smart Meter */}
   <div className="relative z-10 w-44 h-44 bg-[#020617] rounded-2xl border border-cyan-400/50 
@@ -127,7 +128,7 @@ const Hero = () => {
 
 
   {/* Mobile App */}
-  <div className="absolute -top-10 left-1/2 -translate-x-1/2 animate-[float_6s_ease-in-out_infinite]">
+  <div className="absolute -top-10 left-1/2 -translate-x-1/2 animate-[float_3s_ease-in-out_infinite]">
     <div className="w-48 bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-3">
       <img src={mobileApp} alt="Mobile App" />
       <p className="text-xs text-cyan-300 text-center mt-2">
@@ -137,7 +138,7 @@ const Hero = () => {
   </div>
 
   {/* Web Dashboard */}
-  <div className="absolute right-0 top-1/2 -translate-y-1/2 animate-[float_7s_ease-in-out_infinite]">
+  <div className="absolute right-3 top-1/2 -translate-y-1/2 animate-[float_3s_ease-in-out_infinite]">
     <div className="w-40 bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-3 mb-3">
       <img src={webDashboard} alt="Web Dashboard" />
       <p className="text-xs text-cyan-300 text-center mt-2">
@@ -147,8 +148,8 @@ const Hero = () => {
   </div>
 
   {/* IoT Device */}
-  <div className="absolute bottom-0 left-1/2 -translate-x-1/2 animate-[float_5s_ease-in-out_infinite]">
-    <div className="w-40 bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-3">
+  <div className="absolute bottom-0 left-1/2 -translate-x-1/2 animate-[float_3s_ease-in-out_infinite]">
+    <div className="w-40 bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-5 mt-2">
       <img src={iotDevice} alt="IoT Device" />
       <p className="text-xs text-cyan-300 text-center mt-2">
         IoT Devices
@@ -157,7 +158,7 @@ const Hero = () => {
   </div>
 
   {/* Analytics Node */}
-  <div className="absolute left-0 top-1/2 -translate-y-1/2 animate-[float_6.5s_ease-in-out_infinite]">
+  <div className="absolute left-0 top-1/2 -translate-y-1/2 animate-[float_3s_ease-in-out_infinite]">
     <div className="w-44 bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-3">
       <img src={energyAnalytics} alt="Energy Analytics" />
       <p className="text-xs text-cyan-300 text-center mt-2">
