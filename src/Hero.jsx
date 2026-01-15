@@ -6,6 +6,7 @@ import webDashboard from "./assets/web-dashboard.png";
 import iotDevice from "./assets/iot-device.png";
 import energyAnalytics from "./assets/energy-analytics.png";
 import CircularStats from "./CircularStats";
+import {motion} from "framer-motion";
 
 
 const Hero = () => {
@@ -29,11 +30,27 @@ const Hero = () => {
           {/* LEFT CONTENT */}
           <div>
 
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight tracking-wide">
+            <h1 className="text-4xl md:text-3xl lg:text-6xl font-extrabold text-white leading-tight tracking-wide">
               JNE<br />
-              <span className="text-cyan-400 drop-shadow-[0_0_25px_rgba(0,255,255,0.6)]">
-                SMART TECHNOLOGIES
-              </span>
+
+             {["SMART", "TECHNOLOGIES"].map((word, wi) => (
+  <span key={wi} className="block">
+    {word.split("").map((char, ci) => (
+      <motion.span
+        key={ci}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: wi * 1.2 + ci * 0.08 }}
+        className="text-cyan-400 drop-shadow-[0_0_25px_rgba(0,255,255,0.6)]"
+      >
+        {char}
+      </motion.span>
+    ))}
+  </span>
+))}
+              
+
+
             </h1>
 
             <p className="mt-6 text-lg md:text-xl text-gray-300 max-w-xl">
@@ -110,7 +127,7 @@ const Hero = () => {
 
 
   {/* Mobile App */}
-  <div className="absolute -top-16 left-1/2 -translate-x-1/2 animate-[float_6s_ease-in-out_infinite]">
+  <div className="absolute -top-10 left-1/2 -translate-x-1/2 animate-[float_6s_ease-in-out_infinite]">
     <div className="w-48 bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-3">
       <img src={mobileApp} alt="Mobile App" />
       <p className="text-xs text-cyan-300 text-center mt-2">

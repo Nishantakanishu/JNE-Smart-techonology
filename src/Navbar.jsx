@@ -19,9 +19,9 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="fixed top-4 left-1/2 transform -translate-x-1/2 z-20 px-6 py-2
+    <nav className="fixed top-4 left-1/2 transform -translate-x-1/2 z-20 px-6 py-0
                     bg-[#050b1e]/80 backdrop-blur-md text-white shadow-lg border border-white
-                    rounded-full max-w-3xl w-[90%]">
+                    rounded-full max-w-6xl w-[95%]">
       <div className="flex justify-between items-center">
 
         {/* Logo */}
@@ -29,7 +29,7 @@ const Navbar = () => {
           <img
             src={jneLogo}
             alt="JNE Logo"
-            className="h-22 w-auto object-contain"
+            className="h-18 w-auto object-contain"
           />
 
         </div>
