@@ -29,7 +29,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-white font-bold text-lg">Head Office</h3>
-                    <p className="text-gray-400">123 Tech Park, Innovation Blvd<br/>Silicon Valley, CA 94000</p>
+                    <p className="text-gray-400">A-111, First Floor, Tower-4, NX One Tower, Plot no-17<br/>Tech Zone IV, Greater Noida - 201301</p>
                   </div>
                 </div>
 
@@ -39,7 +39,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-white font-bold text-lg">Phone</h3>
-                    <p className="text-gray-400">+1 (555) 123-4567</p>
+                    <p className="text-gray-400">+91 9871767768</p>
                   </div>
                 </div>
 
@@ -49,7 +49,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-white font-bold text-lg">Email</h3>
-                    <p className="text-gray-400">contact@jne-tech.com</p>
+                    <p className="text-gray-400">info@jnetech.in</p>
                   </div>
                 </div>
               </div>
