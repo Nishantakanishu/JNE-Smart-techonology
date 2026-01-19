@@ -63,7 +63,7 @@ const Service = () => {
                        transition-shadow duration-300"
           >
             {/* Image Section (top half) */}
-            <div className="relative h-52 bg-black overflow-hidden">
+            <div className="relative h-52 bg-black overflow-hidden mt-4">
               <img
                 src={service.image}
                 alt={service.title}
