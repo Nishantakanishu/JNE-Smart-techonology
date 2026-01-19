@@ -28,7 +28,7 @@ const Contact = () => {
                     <FaMapMarkerAlt />
                   </div>
                   <div>
-                    <h3 className="text-white font-bold text-lg">Head Office</h3>
+                    <h3 className="text-white font-bold text-lg">Office</h3>
                     <p className="text-gray-400">A-111, First Floor, Tower-4, NX One Tower, Plot no-17<br/>Tech Zone IV, Greater Noida - 201301</p>
                   </div>
                 </div>
@@ -39,7 +39,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-white font-bold text-lg">Phone</h3>
-                    <p className="text-gray-400">+91 9871767768</p>
+                    <p className="text-gray-400">+91 9871767768, </p>
                   </div>
                 </div>
 
@@ -49,7 +49,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-white font-bold text-lg">Email</h3>
-                    <p className="text-gray-400">info@jnetech.in</p>
+                    <p className="text-gray-400">info@jnetech.in, nageshsharma08@gmail.com</p>
                   </div>
                 </div>
               </div>

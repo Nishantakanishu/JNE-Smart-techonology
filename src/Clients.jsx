@@ -30,7 +30,7 @@ import VisarIMG from "./assets/Visar logo.webp";
    ======================= */
 const clients = [
   { name: "SGIL", full: "Satnam Global Infraprojects Ltd.", image: sgilImg },
-  { name: "DMS E Solutions", full: "Smart Meter & Energy Solutions", image: dmsImg },
+  { name: "DMS E Solutions", full: "Smart Meter & Energy Solutions", image: dmsImg},
   { name: "RENESAS", full: "Semiconductor & IoT Leader", image: renesasImg },
   { name: "Network Energy", full: "Power Infrastructure Services", image: networkEnergyImg },
   { name: "Modern Transformers", full: "Transformer Manufacturing", image: modernTransformerImg },
@@ -51,7 +51,7 @@ const row2 = clients.slice(Math.ceil(clients.length / 2));
    ======================= */
 const ClientCard = ({ client }) => {
   return (
-    <div className="relative w-[260px] h-[220px] flex-shrink-0 group z-50">
+    <div className="relative w-[260px] h-[220px] flex-shrink-0 group z-30">
 
       {/* Hover Info */}
       <motion.div
